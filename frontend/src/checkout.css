@@ -1,0 +1,65 @@
+/* CSS for CheckoutForm Component */
+/* Styles for the entire form */
+#payment-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  /* Styles for the LinkAuthenticationElement */
+  #link-authentication-element {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the PaymentElement */
+  #payment-element {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the submit button */
+  #submit {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(0, 179, 200);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #submit:hover {
+    background-color: #2aa7c0; /* Darker shade on hover */
+  }
+  
+  /* Styles for the button text and spinner */
+  #button-text {
+    display: inline-block;
+  }
+  
+  .spinner {
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #3498db;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    animation: spin 1s linear infinite;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Styles for the payment message */
+  #payment-message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
